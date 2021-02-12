@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+basic-hack/.java-version
+*.iml
+target

@@ -1,0 +1,9 @@
+This project contains 2 modules:
+`hack-agent` and `basic-hack`.
+
+The `test` phase of the later requires the `package` of the former.
+
+Hence, to successfully use this project requires to execute the following commands in order:
+
+. `mvn install -pl '!basic-hack'`
+. `mvn test -pl basic-hack`
